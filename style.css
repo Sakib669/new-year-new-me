@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Work Sans';
 }
+
+    /* header area */
 
 header {
     height: 100vh;
@@ -16,7 +17,6 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
 .header-div {
     float: right;
     text-align: right;
@@ -24,7 +24,6 @@ header {
     padding-top: 100px;
     padding-right: 150px;
 }
-
 .header-title {
     font-family: 'Work Sans';
     font-style: normal;
@@ -34,7 +33,6 @@ header {
     color: #151414;
 
 }
-
 .header-description {
     padding: 30px 0;
     font-style: normal;
@@ -43,7 +41,6 @@ header {
     line-height: 26px;
     color: #444343;
 }
-
 .btn-orange {
     background: #F15B22;
     border-radius: 5px;
@@ -57,7 +54,6 @@ header {
     outline: none;
     cursor: pointer;
 }
-
 .btn-orange:hover {
     border: .5px solid #F15B22;
     color: #F15B22;
@@ -66,9 +62,13 @@ header {
     overflow: hidden;
 }
 
+    /* main area */
+
 main {
     margin: 0 200px;
 }
+
+ /* profile info section  */
 
 .profile-info {
     margin: 130px 0;
@@ -76,22 +76,18 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 .image-div {
     width: 59%;
     height: auto;
 }
-
 .image-div img {
     width: 100%;
     height: auto;
 }
-
 .info-div {
     width: 40%;
     height: 100%;
 }
-
 .info-title {
     font-weight: 700;
     font-size: 40px;
@@ -99,7 +95,6 @@ main {
     color: #151414;
     padding-bottom: 10px;
 }
-
 .info-description {
     font-weight: 400;
     font-size: 16px;
@@ -107,7 +102,6 @@ main {
     color: #444343;
     padding: 10px 0;
 }
-
 .info-list li {
     font-weight: 400;
     font-size: 16px;
@@ -115,12 +109,14 @@ main {
     list-style: none;
     color: #444343;
 }
-
 .info-list img {
     height: 11px;
     width: 16px;
     padding-right: 15px;
 }
+
+/* my plans area */
+
 .plans-title {
     text-align: center;
     font-weight: 700;
@@ -128,26 +124,22 @@ main {
     line-height: 47px;
     color: #151414;
 }
-
 .plans-div {
     display: flex;
     padding-top: 40px;
     gap: 30px;
     justify-content: space-between;
 }
-
 .plan {
     text-align: center;
     width: 20%;
 }
-
 .plan-title {
     font-weight: 700;
     font-size: 21px;
     line-height: 35px;
     padding-top: 10px;
 }
-
 .plan-summary {
     font-weight: 500;
     font-size: 17px;
@@ -156,17 +148,19 @@ main {
     padding-top: 10px;
 }
 
+/* blend section area  */
+
 .blend-sec {
     margin: 130px 0;
     width: 100%;
     height: 300px;
     background: url(./images/gradient2.png), url(./images/watch.png);
+    background-size: contain;
     background-blend-mode: normal;
     background-repeat: no-repeat;
     border: none;
     border-radius: 15px;
 }
-
 .blend-div {
     width: 50%;
     padding-left: 60px;
@@ -174,7 +168,6 @@ main {
     text-align: left;
     border: none;
 }
-
 .blend-sec-title {
     font-weight: 700;
     font-size: 40px;
@@ -182,7 +175,6 @@ main {
     color: #fff;
     padding-bottom: 30px;
 }
-
 .btn-white {
     font-weight: 600;
     font-size: 20px;
@@ -195,12 +187,13 @@ main {
     border-radius: 10px;
     transition: .5s;
 }
-
 .btn-white:hover {
     color: #fff;
     background: transparent;
     border: .5px solid #fff
 }
+
+/* footer area  */
 
 footer {
     padding: 100px 200px 100px 150px;
@@ -210,17 +203,17 @@ footer {
     /* gap: 500px; */
 }
 
+/* conatact info area  */
+
 .contact-area {
     width: 70%;
 }
-
 .contact-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 53px;
     color: #F8F8F8;
 }
-
 .contact-description {
     font-weight: 300;
     font-size: 15px;
@@ -228,7 +221,6 @@ footer {
     color: #fff;
     padding: 20px 0;
 }
-
 .contact-info {
     font-weight: 300;
     font-size: 15px;
@@ -236,28 +228,26 @@ footer {
     color: #fff;
     padding: 5px 0;
 }
-
 .social-media-icons {
     display: flex;
     padding-top: 20px;
 }
-
 .social-media-icon {
     padding-right: 25px;
 }
+
+/* input info area  */
 
 .input-area {
     width: 30%;
     padding-left: 250px;
 }
-
 .input-area-title {
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
     color: #fff;
 }
-
 .input-area input {
     width: 100%;
     font-weight: 400;
